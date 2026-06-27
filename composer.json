@@ -1,0 +1,26 @@
+{
+    "name": "boxphp/queue",
+    "description": "BoxPHP Queue - Redis Queue Implementation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BoxPHP\\Queue\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "boxphp/core": "dev-master",
+        "boxphp/redis": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        },
+        {
+            "type": "path",
+            "url": "../redis"
+        }
+    ]
+}
